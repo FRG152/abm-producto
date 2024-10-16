@@ -16,7 +16,7 @@ import {
 import { ListOfCharacters } from "../../infrastructure/api/endpoints";
 import CardComponent from "../../presentation/components/Card";
 
-// const FormComponent = React.lazy(() => import("design_system/Form"));
+const FormComponent = React.lazy(() => import("design_system/Form"));
 const ButtonComponent = React.lazy(() => import("design_system/Button"));
 
 interface ProductViewProps {
@@ -100,7 +100,7 @@ const ProductView = ({
         </ProductForm> */}
       </ProductViewContainer>
 
-      {/* <FormComponent /> */}
+      <FormComponent />
 
       {/* <ProductList>
         {data.map((item: any) => {
