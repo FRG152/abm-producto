@@ -18,8 +18,7 @@ export default defineConfig({
         "./EndPoints": "./src/infrastructure/api/endpoints/index.ts",
       },
       remotes: {
-        design_system:
-          "https://design-system-cyan-gamma.vercel.app/assets/remoteEntry.js",
+        design_system: "https://designsytem.netlify.app/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom", "axios"],
     }),
